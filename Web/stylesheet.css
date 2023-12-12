@@ -1,0 +1,150 @@
+.video {
+    background-image: url('Media/Fond_Video.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.accueil {
+    background-image: url('Media/Accueil.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.apropos {
+    background-image: url('Media/Classement.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.classement {
+    background-image: url('Media/Classement.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contenu {
+    color: #ffffff;
+    /* height: 100vh; */
+    display: inline-block;
+    /* Ajuste la div à la taille de son contenu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sous-titre {
+    color: #FFF;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Titan One;
+    text-align: center;
+    text-shadow: 0px 1px 8px #7F1635;
+    font-size: 50px;
+}
+
+.pompon {
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    margin-right: 2vw;
+}
+
+.bouton_retour {
+    display: inline-block;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pompon>*:not(:last-child) {
+    margin-right: 10px;
+    /* Ajustez la valeur selon vos besoins */
+}
+
+#Heart {
+    filter: grayscale(100%) invert(100%);
+}
+
+.logo {
+    padding: 4vw;
+    padding-top: 2vw;
+}
+
+.titre {
+    display: inline-block;
+    color: #FCB771;
+    font-family: Titan One;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 2vw;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.param {
+    background-color: #BC3B52;
+    border-color: #BC3B52;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 1px -6px 5px 0px #7F1635 inset;
+    /* transition: transform 0.2s ease-in-out; */
+    font-family: Titan One;
+    transition-duration: 0.3s;
+    /* Ajouter une transition pour un effet en douceur */
+    cursor: pointer;
+}
+
+.param:hover {
+    background-color: #752532;
+    /* Couleur plus foncée pour l'effet d'enfoncement */
+    border-color: #752532;
+}
+
+.buttons {
+    padding: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar_classement {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.texte_apropos {
+    font-family: Titan One;
+    font-size: 40px;
+    padding: 10vh;
+    padding-right: 40vh;
+    display: inline-block;
+    line-height: 1.5;
+}
